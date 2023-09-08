@@ -29,10 +29,10 @@
 ## Installation
 
 ```bash
-$ pnpm install
+$ bun install
 ```
 
-## Running the app
+## Running the app with pnpm
 
 ```bash
 # development
@@ -45,17 +45,18 @@ $ pnpm run start:dev
 $ pnpm run start:prod
 ```
 
-## Test
+## Build
 
 ```bash
-# unit tests
-$ pnpm run test
+$ nest build
 
-# e2e tests
-$ pnpm run test:e2e
+```
 
-# test coverage
-$ pnpm run test:cov
+## Running the app with bun
+
+```bash
+$ bun run dist/main.js
+
 ```
 
 ## Support
